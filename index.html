@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Jonathan Lopez</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Jonathan</a>
+            </div>
+            <nav id="nav" class="">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#footer" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-sharp fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenedor-banner">
+            <div class="contenedor-img">
+                <img src="img/yo.jpg" alt="">
+            </div>
+            <h1>Jonathan Lopez</h1>
+            <h2>Ingeniero de Software - Programnador</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/jonathansoft" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://twitter.com/Jonatha28919504" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://github.com/JonathanLob?tab=repositories" target="_blank"><i
+                        class="fa-brands fa-github"></i></a>
+                <a href="https://youtube.com/@jonathanlopez1515" target="_blank"><i
+                        class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, Soy Jonathan Lopez </span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsum
+                quasi minima inventore aut quaerat debitis explicabo, quam tenetur, nostrum nobis repudiandae mollitia.
+                Culpa facilis aut, nisi vel sapiente ipsam.</p>
+            <div class="fila">
+                <!-- Datos Personales-->
+                <div class="col">
+                    <h3>Datos personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños :</strong>
+                            07-09-1987
+                        </li>
+                        <li>
+                            <strong>Telefono :</strong>
+                            930 797 321
+                        </li>
+                        <li>
+                            <strong>Email :</strong>
+                            jelv_2008@hotmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección :</strong>
+                            Jr. Washington 702 - Callao
+                        </li>
+                        <li>
+                            <strong>Ocupación : </strong>
+                            <span>Programador</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-tv"></i>
+                            <span>Tecnologia</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-microchip"></i>
+                            <span>Electronica</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>Video Juegos</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-sharp fa-solid fa-book"></i>
+                            <span>Libros</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-flask"></i>
+                            <span>Ciencia</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Musica</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-dumbbell"></i>
+                            <span>Ginnasio</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>Autos</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <a href="doc/cv_Jonathan.pdf" download target="_blank">
+                <button>
+                    Descargar CV<i class="fa-solid fa-cloud-arrow-down"></i>
+                    <span class="overlay"></span>
+                </button>
+            </a>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section id="skills" class="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!-- Skill tecnicos -->
+                <div class="col">
+                    <h3>Habilidades Tecnicas</h3>
+                    <div class="skill">
+                        <span>JavaScript / NodeJs</span>
+                        <div class="barra-skill">
+                            <div class="progreso javascript">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Html & Css</span>
+                        <div class="barra-skill">
+                            <div class="progreso html">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress / Moodle</span>
+                        <div class="barra-skill">
+                            <div class="progreso wordpress">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Bootstrap</span>
+                        <div class="barra-skill">
+                            <div class="progreso bootstrap">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Java / Mysql</span>
+                        <div class="barra-skill">
+                            <div class="progreso moodle">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="barra-skill">
+                            <div class="progreso react">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Skill Profesionales -->
+                <div class="col">
+                    <h3>Habilidades Laborales</h3>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso trabajo">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Comunicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso comunicacion">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso creatividad">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso dedicacion">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Velocidad para aprender</span>
+                        <div class="barra-skill">
+                            <div class="progreso velocidad">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Organizacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso organizacion">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Desarrollo de sistemas</h4>
+                        <span class="casa">Instituto IDAT</span>
+                        <span class="fecha">2022 - Actualidad</span>
+                        <p>la carrera de Desarrollo de Sistemas de Información. formando profesionales técnicos con
+                            capacidades para desarrollar aplicaciones y sistemas de información en distintas plataformas
+                            (escritorio, web o móvil), permitiendo que las tecnología de información y comunicación se
+                            convierta en una herramienta que mejora la competitividad de las empresas.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Diseño web</h4>
+                        <span class="casa">Instituto IDAT</span>
+                        <span class="fecha">2021 - 2021</span>
+                        <p>En este mundo digital es esencial saber cómo hacer diseño web adaptativo. Un sitio web en
+                            nuestros días es una herramienta indispensable en cualquier ámbito en el que te encuentres,
+                            tener presencia en internet es algo que buscan estudiantes, profesionales y empresas para
+                            poder ofrecer sus servicios y hacer crecer su mercado.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Ingenieria de Software</h4>
+                        <span class="casa">Universidad Tecnologica del Perú</span>
+                        <span class="fecha">2015 - 2016</span>
+                        <p>diseñar productos software. Dominar técnicas de programación, así como metodologías de
+                            desarrollo de softwares.
+                            por motivos economicos me quede en IV ciclo pero aun esta vigente el terminar la carrera ya
+                            que el software es
+                            lo que mas me atrae y poder crearlo siempre es mi pasión.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia</h3>
+                    <div class="item der">
+                        <h4>Soporte tecnico </h4>
+                        <span class="casa">Konecta Bpo</span>
+                        <span class="fecha">10-2022 / Actualidad</span>
+                        <p>Soporte técnico primer nivel, atendiendo los requerimientos y
+                            exigencias directamente de clientes Españoles, el trabajo no solo es resolviendo
+                            inconvenientes
+                            técnicos, también es satisfaciendo al cliente respecto a la imagen de la empresa operadora
+                            Vodafone, ayudando a los clientes cuando tienen inconvenientes sobre internet, televisión,
+                            teléfono fijo y teléfono móvil.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Desarrollador web</h4>
+                        <span class="casa">Innovascientific</span>
+                        <span class="fecha">05-2022 / 07-2022</span>
+                        <p>Desarrollador de páginas Web con WordPress, Elementor, Moodle y otras herramientas, cree más
+                            de 7 páginas
+                            para congresos educacionales de la empresa, diseñe en Moodle una web de enseñanza para que
+                            la empresa pueda dictar sus clases
+                            , por ultimo realicé creación de Realidad Aumentada con el software Unity y Vuforia para
+                            empezar con la producción de libros digitales.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>HelpDesk y Team Lead</h4>
+                        <span class="casa">Majorel</span>
+                        <span class="fecha">07-2020 / 03-2022</span>
+                        <p>HelpDesk, soporte técnico por teléfono y por chat a clientes de Amazon España, resolviendo
+                            dudas e inconvenientes con sus productos comprados a través de la web, los últimos 4 meses
+                            estuve de apoyo como Team Lead dirigiendo grupo de 15 asesores cumpliendo con las métricas
+                            de la empresa.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portafolio" class="portafolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/web1.png" alt="">
+                    <div class="overlay">
+                        <h3>Web Portafolio</h3>
+                        <br>
+                        <p><a href="https://jonathanlob.github.io/portafolio/" target="_blank">Ver página</a></p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/web2.png" alt="">
+                    <div class="overlay">
+                        <h3>Web Ventas</h3>
+                        <br>
+                        <p><a href="https://jonathanlob.github.io/kareni/index.html" target="_blank">Ver página</a></p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/web3.png" alt="">
+                    <div class="overlay">
+                        <h3>Web Artes Marciales</h3>
+                        <br>
+                        <p><a href="https://jonathanlob.github.io/taekwondo/index.html" target="_blank">Ver página</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/web4.png" alt="">
+                    <div class="overlay">
+                        <h3>Web Horario</h3>
+                        <br>
+                        <p><a href="https://jonathanlob.github.io/Horario/" target="_blank">Ver página</a></p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/web5.png" alt="">
+                    <div class="overlay">
+                        <h3>Web en React</h3>
+                        <br>
+                        <p><a href="https://jonathanlob.github.io/dc/" target="_blank">Ver página</a></p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/web6.png" alt="">
+                    <div class="overlay">
+                        <h3>Web Noticias</h3>
+                        <br>
+                        <p><a href="https://jonathanlob.github.io/examen1/" target="_blank">Ver página</a></p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/sistema1.png" alt="">
+                    <div class="overlay">
+                        <h3>Sistema de ventas</h3>
+                        <br>
+                        <p><a href="https://github.com/JonathanLob/proyecto_java_1.git" target="_blank">Ver codigo</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/web7.png" alt="">
+                    <div class="overlay">
+                        <h3>Web De Ventas</h3>
+                        <br>
+                        <p><a href="" target="_blank">Ver página</a></p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/sistema2.png" alt="">
+                    <div class="overlay">
+                        <h3>Sistema CRUD</h3>
+                        <br>
+                        <p><a href="https://github.com/JonathanLob/java_00.git" target="_blank">Ver Codigo</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+
+    <!-- FOOTER -->
+    <footer id="footer">
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/jonathansoft" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com/Jonatha28919504" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://github.com/JonathanLob?tab=repositories"><i class="fa-brands fa-github"></i></a>
+            <a href="https://youtube.com/@jonathanlopez1515" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
